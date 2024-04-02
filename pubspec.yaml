@@ -5,13 +5,13 @@ homepage: https://github.com/barkibu/add_to_wallet
 repository: https://github.com/barkibu/add_to_wallet
 
 environment:
-  sdk: ">=2.19.0 <4.0.0"
-  flutter: ">=3.3.0"
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.4"
 
 dependencies:
   flutter:
     sdk: flutter
-  uuid: ^3.0.7
+  uuid: ^4.3.3
 
 dev_dependencies:
   flutter_test:
@@ -20,8 +20,5 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      # android:
-      #   package: com.barkibu.add_to_wallet
-      #   pluginClass: AddToWalletPlugin
       ios:
         pluginClass: AddToWalletPlugin
